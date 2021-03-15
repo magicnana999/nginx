@@ -3,3 +3,5 @@ logs
 objs
 Makefile
 CMakeLists.txt
+.DS_Store
+.idea/
