@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+echo '/'
+make clean
+
+basedir=`pwd`
+echo $basedir
+
+rm -rf $basedir/logs
+mkdir $basedir/logs
+
+auto/configure --with-pcre=/usr/local/include --prefix=/Users/jinsong/source/github/zaqizaba/nginx
