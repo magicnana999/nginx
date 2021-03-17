@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-echo '/'
+rm -rf CMakeLists.txt
+rm -rf cmake-build-debug
 make clean
 
 basedir=`pwd`
@@ -9,4 +10,4 @@ echo $basedir
 rm -rf $basedir/logs
 mkdir $basedir/logs
 
-auto/configure --with-pcre=/usr/local/include --prefix=$basedir
+auto/configure --with-pcre=/usr/local/include --prefix=$basedir --with-debug
