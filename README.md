@@ -1,4 +1,6 @@
 #### 关于编译
-* 此 cmake文件的生成使用 https://github.com/Toudsou/nginx_cmake
-* 需要本地安装 pcre
-* 执行 ./configure
+* pcre 和 openssl 的源码都在这里。
+* cd openssl ./configure --prefix=`pwd` && make
+* cd pcre-8.44 ./configure --prefix=`pwd` && make
+* cd . && ./configure
+* 修改 CMakeList.txt,修改 

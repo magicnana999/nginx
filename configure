@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 rm -rf CMakeLists.txt
 rm -rf cmake-build-debug
 make clean
@@ -10,4 +11,4 @@ echo $basedir
 rm -rf $basedir/logs
 mkdir $basedir/logs
 
-auto/configure --with-pcre=/usr/local/include --prefix=$basedir --with-debug
+auto/configure --prefix=$basedir --add-module=nginx-rtmp-module --with-pcre=pcre-8.44 --with-openssl=openssl --with-debug

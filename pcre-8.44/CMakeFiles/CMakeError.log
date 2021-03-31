@@ -1,0 +1,64 @@
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_617ef/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_617ef.dir/build.make CMakeFiles/cmTC_617ef.dir/build
+Building C object CMakeFiles/cmTC_617ef.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_617ef.dir/CheckIncludeFile.c.o   -c /Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_617ef.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_617ef/fast] Error 2
+
+
+
+Determining if the include file type_traits.h exists failed with the following output:
+Change Dir: /Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a456/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1a456.dir/build.make CMakeFiles/cmTC_1a456.dir/build
+Building CXX object CMakeFiles/cmTC_1a456.dir/CheckIncludeFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1a456.dir/CheckIncludeFile.cxx.o -c /Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'type_traits.h' file not found
+#include <type_traits.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1a456.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_1a456/fast] Error 2
+
+
+
+Determining if the include file bits/type_traits.h exists failed with the following output:
+Change Dir: /Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f01d7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f01d7.dir/build.make CMakeFiles/cmTC_f01d7.dir/build
+Building CXX object CMakeFiles/cmTC_f01d7.dir/CheckIncludeFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f01d7.dir/CheckIncludeFile.cxx.o -c /Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'bits/type_traits.h' file not found
+#include <bits/type_traits.h>
+         ^~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f01d7.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_f01d7/fast] Error 2
+
+
+
+Determining if the function _strtoi64 exists failed with the following output:
+Change Dir: /Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_21b14/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_21b14.dir/build.make CMakeFiles/cmTC_21b14.dir/build
+Building C object CMakeFiles/cmTC_21b14.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strtoi64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_21b14.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_21b14
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21b14.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strtoi64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_21b14.dir/CheckFunctionExists.c.o  -o cmTC_21b14 
+Undefined symbols for architecture x86_64:
+  "__strtoi64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_21b14] Error 1
+make: *** [cmTC_21b14/fast] Error 2
+
+
+

@@ -1,0 +1,15 @@
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/install/local.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/install.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/rebuild_cache.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/pcre.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/edit_cache.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/pcre_stringpiece_unittest.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/pcrecpp.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/pcretest.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/list_install_components.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/pcregrep.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/install/strip.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/pcre_scanner_unittest.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/pcreposix.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/test.dir
+/Users/jinsong/source/github/zaqizaba/nginx/pcre-8.44/CMakeFiles/pcrecpp_unittest.dir
